@@ -5,8 +5,8 @@ let tick = null;
 function formatTime(totalSeconds) {
     const minutes = Math.floor(totalSeconds / 60);
     const seconds = totalSeconds % 60;
-    const mm = minutes < 10 ? '0' + minutes : String(minutes);
-    const ss = seconds < 10 ? '0' + seconds : String(seconds);
+    const mm = minutes < 10 ? `0${minutes}` : String(minutes);
+    const ss = seconds < 10 ? `0${seconds}` : String(seconds);
     return `${mm}:${ss}`;
 }
 
@@ -15,7 +15,7 @@ export default {
         initialDurationInMinutes: 30,
 
         percent: 100,
-        timeAmount: "00:00",
+        timeAmount: '00:00',
 
         total: 1800,
         remaining: 1800,
@@ -94,7 +94,7 @@ export default {
     },
 
     touchMove(e) {
-        if (e.direction == 'right') {
+        if (e.direction === 'right') {
             router.replaceUrl({
                 uri: 'pages/index/index'
             });

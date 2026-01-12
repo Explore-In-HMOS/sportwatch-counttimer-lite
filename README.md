@@ -19,9 +19,9 @@ A sample application demonstrating a touch-based interactive timer. It features 
 * Haptic Feedback Alerts: The app vibrates at the 30-second mark and when the countdown finishes.
 
 # Technology Stack
-**Languages**: JS  
-**Frameworks**: HarmonyOS SDK 5.0.0(12)  
-**Tools**: DevEco Studio 5.1.0  
+**Languages**: JS
+**Frameworks**: HarmonyOS SDK 5.0.0(12)
+**Tools**: DevEco Studio 5.1.0
 **Libraries/Kits**: @system.vibrator, @system.router
 # Directory Structure
 ```
@@ -51,5 +51,5 @@ entry\src\main\js
 
 # License
 
-**Timer** is distributed under the terms of the **MIT License**.  
-See the [LICENSE](LICENSE) file for more information.  
+**Timer** is distributed under the terms of the **MIT License**.
+See the [LICENSE](LICENSE) file for more information.

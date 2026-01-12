@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.timer",
+    "bundleName": "com.hmosdemos.lite_wearable.count_timer",
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,
